@@ -1,6 +1,6 @@
 {
   "name": "@qingbing/vue-markdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "markdown在线编辑器，封装mavon-editor",
   "main": "src/index.vue",
   "scripts": {

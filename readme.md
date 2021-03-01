@@ -4,6 +4,7 @@ markdown在线编辑器，封装mavon-editor
 ### ====== 版本说明 ======
 - 1.0.0 : 初始化git库
 - 1.0.1 : 对 mavon-editor 进行封装
+- 1.0.2 : 修复 isText=true 时 navigation 的多个显示问题
 
 ## 1. 安装
 ```
@@ -27,7 +28,6 @@ import Markdown from "@qingbing/vue-markdown";
 export default {
   data() {
     return {
-      data,
       fromData: {
         remark: "",
       },
@@ -39,7 +39,7 @@ export default {
 }
 ```
 ```html
-<md-editor :formData="data" field="remark" :isText="false"></md-editor>
+<md-editor :formData="formData" field="remark" :isText="false"></md-editor>
 ```
 
 ## 3. 支持参数

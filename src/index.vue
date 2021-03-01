@@ -184,7 +184,11 @@ export default {
       this.mdDefaultOpen = "preview"; // 编辑器加载方式
       this.mdToolbarsFlag = false; // 工具栏是否显示
       this.mdToolbars = {};
-      this.navigationClass = "qb-md-view-navigation";
+      if (this.navigation) {
+        this.navigationClass = "qb-md-view-navigation";
+      } else {
+        this.navigationClass = "";
+      }
     } else {
       this.navigationClass = "";
       this.mdEditable = this.editable;
