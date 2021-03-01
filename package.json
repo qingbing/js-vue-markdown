@@ -1,0 +1,37 @@
+{
+  "name": "@qingbing/vue-markdown",
+  "version": "1.0.0",
+  "description": "markdown在线编辑器，封装mavon-editor",
+  "main": "src/index.vue",
+  "scripts": {
+    "pack-version": "webpack -v",
+    "start": "node ./src/index.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "qingbing",
+    "vue",
+    "markdown",
+    "mavon-editor"
+  ],
+  "author": "https://github.com/qingbing",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "mavon-editor": "^2.9.1",
+    "vue": "^2.6.12"
+  }
+}

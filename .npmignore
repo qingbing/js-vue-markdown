@@ -1,0 +1,8 @@
+# npm 上传忽略的文件
+.*
+*.md
+*.yml
+build/
+node_modules/
+src/
+test/
